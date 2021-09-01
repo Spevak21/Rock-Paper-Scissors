@@ -63,6 +63,7 @@ const contactIcon = document.createElement('img');
 contactIcon.setAttribute('src', 'resources/img/facebook.png');
 contactIcon.setAttribute('alt', 'facebook');
 const btnPlayAgain = document.createElement('a');
+btnPlayAgain.style.cursor = 'pointer';
 btnPlayAgain.classList.add('play-again');
 btnPlayAgain.textContent = 'Play again';
 
