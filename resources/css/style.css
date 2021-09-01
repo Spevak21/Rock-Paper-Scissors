@@ -28,7 +28,7 @@ main {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("/resources/css/img/background.png");
+  background-image: url("resources/css/img/background.png");
   background-size: cover;
 }
 
