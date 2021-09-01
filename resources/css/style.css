@@ -233,11 +233,10 @@ footer input::placeholder {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  min-height: 40rem;
+  min-height: 50rem;
   min-width: 60rem;
-  height: 50vh;
   width: 40vw;
-  padding: 5rem;
+  padding: 4rem;
   font-size: 3rem;
   text-align: center;
   color: #c3996b;
