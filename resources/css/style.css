@@ -28,7 +28,7 @@ main {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("resources/css/img/background.png");
+  background-image: url(resources/css/img/background.png);
   background-size: cover;
 }
 
@@ -39,8 +39,6 @@ header {
   align-items: center;
   height: 10%;
   width: 100%;
-  
-  /* background-color: rgba(0, 0, 255, 0.2); */
 }
 /* Elements in header */
 .btn,
@@ -74,8 +72,8 @@ header {
 section {
   display: flex;
   height: 80%;
-  /* background-color: rgba(126, 252, 0, 0.2); */
 }
+
 section div > * {
   transition: all 1s;
 }
@@ -92,7 +90,6 @@ section input {
   width: 40rem;
   background: transparent;
   border: none;
-
   text-align: center;
   font-family: "Londrina Solid", sans-serif;
   font-size: 4rem;
@@ -109,7 +106,6 @@ section input::placeholder {
 .left-div {
   height: 100%;
   width: 50%;
-  /* background-color: rgba(240, 128, 128, 0.2); */
 }
 
 .left-div img {
@@ -120,7 +116,6 @@ section input::placeholder {
 .right-div {
   height: 100%;
   width: 50%;
-  /* background-color: rgba(255, 153, 74, 0.2); */
 }
 
 .right-div img {
@@ -132,7 +127,6 @@ section input::placeholder {
   height: 10rem;
   width: 40rem;
   text-align: center;
-  font-family: "Londrina Solid", sans-serif;
   font-size: 4rem;
   font-weight: 400;
   line-height: 2.5;
@@ -158,6 +152,7 @@ footer {
 footer > * {
   transition: all 1s;
 }
+
 footer p {
   font-size: 4rem;
   text-transform: uppercase;
@@ -170,12 +165,10 @@ footer input {
   width: 20rem;
   border-radius: 1rem;
   border: none;
-
   text-align: center;
   font-family: "Londrina Solid", sans-serif;
   font-size: 4rem;
   font-weight: 400;
-  /* line-height: 1.7; */
   color: #777;
   letter-spacing: .2rem;
 }
@@ -201,8 +194,6 @@ footer input::placeholder {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
-  /* opacity: 0;
-  pointer-events: none; */
   transition: all 1s;
 }
 
@@ -238,6 +229,7 @@ footer input::placeholder {
   width: 40vw;
   padding: 4rem;
   font-size: 3rem;
+  line-height: 1.4;
   text-align: center;
   color: #c3996b;
   background-color: #fff;
